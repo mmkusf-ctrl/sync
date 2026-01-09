@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sync'd Jewelry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <input type="text" placeholder="Search here...">
+
+    <div class="menu">
+        <div class="dropdown">
+            Account
+            <div class="dropdown-content">
+                <a href="#">Profile</a>
+                <a href="#">Orders</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            Cart
+            <div class="dropdown-content" id="cart-items">
+                <p>No items</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <img src="assets/hero.jpg" class="hero-img">
+
+    <div class="hero-content">
+        <h1>sync’d</h1>
+        <p>with your beauty</p>
+
+        <div class="buttons">
+            <button onclick="showCategory('necklace')">Necklace</button>
+            <button onclick="showCategory('earrings')">Ear Rings</button>
+            <button onclick="showCategory('bracelet')">Bracelet</button>
+        </div>
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="hidden"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
