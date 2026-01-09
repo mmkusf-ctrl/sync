@@ -6,17 +6,28 @@ export default function Home() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <button onClick={() => navigate("/products/necklace")}>
+
+        <button
+          className="category-btn"
+          onClick={() => navigate("/products/necklace")}
+        >
           Necklace
         </button>
 
-        <button onClick={() => navigate("/products/earrings")}>
+        <button
+          className="category-btn"
+          onClick={() => navigate("/products/earrings")}
+        >
           Ear Rings
         </button>
 
-        <button onClick={() => navigate("/products/bracelet")}>
+        <button
+          className="category-btn"
+          onClick={() => navigate("/products/bracelet")}
+        >
           Bracelett
         </button>
+
       </div>
     </section>
   );
