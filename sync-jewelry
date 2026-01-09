@@ -1,0 +1,8 @@
+sync-jewelry/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── assets/
+    └── hero.jpg
