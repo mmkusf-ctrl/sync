@@ -122,13 +122,14 @@ body {
 }
 
 .products-page.necklace {
-  background: #f5ebe0;
+  background-color: #f5ebe0;
 }
 
 .products-page.earrings {
-  background: #e0f0f5;
+  background-color: #e0f0f5;
 }
 
 .products-page.bracelet {
-  background: #f0e0f5;
+  background-color: #f0e0f5;
 }
+
