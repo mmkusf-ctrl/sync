@@ -15,7 +15,7 @@ export default function ProductsPage() {
       <h1>{category.toUpperCase()}</h1>
 
       <div className="grid">
-        {products.map(product => (
+        {products.slice(0, 10).map(product => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
