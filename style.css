@@ -115,3 +115,20 @@ body {
 .qty button {
     width: 30px;
 }
+
+.products-page {
+  min-height: 100vh;
+  padding: 60px;
+}
+
+.products-page.necklace {
+  background: #f5ebe0;
+}
+
+.products-page.earrings {
+  background: #e0f0f5;
+}
+
+.products-page.bracelet {
+  background: #f0e0f5;
+}
